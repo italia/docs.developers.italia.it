@@ -13,7 +13,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      
+      - run: echo "All good"
       - persist_to_workspace:
           root: /home/circleci
           paths:
