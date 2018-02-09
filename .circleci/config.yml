@@ -3,9 +3,9 @@
 # Check https://circleci.com/docs/2.0/ for more details
 #
 
-working_directory: /home/circleci/docs.developers.italia.it
-docker:
-  - image: circleci/ruby:2.4.1-node
+  working_directory: /home/circleci/docs.developers.italia.it
+  docker:
+    - image: circleci/ruby:2.4.1-node
 
 version: 2
 jobs:
