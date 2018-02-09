@@ -12,9 +12,8 @@ jobs:
       - checkout
       - run: echo "All good"
       - persist_to_workspace:
-          root: /home/circleci
           paths:
-            - docs.developers.italia.it
+            - docs-italia
 
   # Deploy to production site
   # Note that we need a custom SSH config to let rsync know
@@ -29,7 +28,7 @@ jobs:
       - run: echo $TEAMDIGITALE_SSH_CONF | base64 -d > ~/.ssh/config
       - run: echo $TEAMDIGITALE_SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
-      - run: rsync -avP --rsync-path="sudo -u www-data rsync" ./ developers.italia.it:/data/www/docs.developers.italia.it/web/
+      - run: rsync -avP --rsync-path="sudo -u www-data rsync" docs-italia/ developers.italia.it:/data/www/docs.developers.italia.it/web/
 
 workflows:
   version: 2
