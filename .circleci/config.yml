@@ -10,7 +10,6 @@
 version: 2
 jobs:
   build:
-    <<: *defaults
     steps:
       - checkout
       - run: echo "All good"
@@ -23,7 +22,6 @@ jobs:
   # Note that we need a custom SSH config to let rsync know
   # how to reach the production site.
   deploy-production:
-    <<: *defaults
     steps:
       - attach_workspace:
           at: /home/circleci
