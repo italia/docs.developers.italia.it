@@ -17,7 +17,7 @@ jobs:
       - run: echo $TEAMDIGITALE_SSH_CONF | base64 -d > ~/.ssh/config
       - run: echo $SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
-      - run: rsync --dry-run -avP --rsync-path="sudo -u www-data rsync" ./ circleci@developers.italia.it:/data/www/docs.developers.italia.it/web/
+      - run: rsync --exclude '*.git' -avP --rsync-path="sudo -u www-data rsync" ./ circleci@developers.italia.it:/data/www/docs.developers.italia.it/web/
       
 workflows:
   version: 2
