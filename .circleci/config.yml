@@ -31,7 +31,7 @@ jobs:
       - run: echo $TEAMDIGITALE_SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
       #- run: rsync -avP --rsync-path="sudo -u www-data rsync" docs-italia/ developers.italia.it:/data/www/docs.developers.italia.it/web/
-      - run: ls docs-italia
+      - run: ls -lah .
       
 workflows:
   version: 2
