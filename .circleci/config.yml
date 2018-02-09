@@ -15,10 +15,10 @@ jobs:
       - checkout
       - run: mkdir -p ~/.ssh
       - run: echo $TEAMDIGITALE_SSH_CONF | base64 -d > ~/.ssh/config
-      - run: echo $TEAMDIGITALE_SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
+      - run: echo $SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
-      #- run: rsync -avP --rsync-path="sudo -u www-data rsync" docs-italia/ developers.italia.it:/data/www/docs.developers.italia.it/web/
-      - run: ls -lah .
+      - run: rsync -avP --rsync-path="sudo -u www-data rsync" ./ developers.italia.it:/data/www/docs.developers.italia.it/web/
+      #- run: ls -lah .
       
 workflows:
   version: 2
