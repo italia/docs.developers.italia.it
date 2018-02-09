@@ -1,0 +1,55 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/ for more details
+#
+
+working_directory: /home/circleci/docs.developers.italia.it
+docker:
+  - image: circleci/ruby:2.4.1-node
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      
+      - persist_to_workspace:
+          root: /home/circleci
+          paths:
+            - docs.developers.italia.it
+
+  # Deploy to production site
+  # Note that we need a custom SSH config to let rsync know
+  # how to reach the production site.
+  deploy-production:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+      - run: mkdir -p ~/.ssh
+      - run: echo $TEAMDIGITALE_SSH_CONF | base64 -d > ~/.ssh/config
+      - run: echo $TEAMDIGITALE_SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
+      - run: which rsync || sudo apt-get install rsync
+      - run: rsync -avP --rsync-path="sudo -u www-data rsync" ./ developers.italia.it:/data/www/docs.developers.italia.it/web/
+
+workflows:
+  version: 2
+  build-test-and-approval-deploy:
+    jobs:
+      - build
+      - hold:
+          type: approval
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+      - deploy-production:
+          requires:
+            - hold
+          filters:
+            branches:
+              only:
+                - master
