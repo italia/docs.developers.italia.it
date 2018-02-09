@@ -3,13 +3,11 @@
 # Check https://circleci.com/docs/2.0/ for more details
 #
 
-  working_directory: /home/circleci/docs.developers.italia.it
-  docker:
-    - image: circleci/ruby:2.4.1-node
-
 version: 2
 jobs:
   build:
+    docker:
+      - image: circleci/ruby:2.4.1-node
     steps:
       - checkout
       - run: echo "All good"
@@ -22,6 +20,8 @@ jobs:
   # Note that we need a custom SSH config to let rsync know
   # how to reach the production site.
   deploy-production:
+    docker:
+      - image: circleci/ruby:2.4.1-node
     steps:
       - attach_workspace:
           at: /home/circleci
