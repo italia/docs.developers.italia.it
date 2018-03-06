@@ -10,7 +10,7 @@ jobs:
   # how to reach the production site.
   deploy-production:
     docker:
-      - image: circleci/ruby:2.4.1-node
+      - image: circleci/ruby:2.5.0-node
     environment:
       - JEKYLL_ENV: "production"
       - NOKOGIRI_USE_SYSTEM_LIBRARIES: "true"
@@ -22,8 +22,8 @@ jobs:
       - run: mkdir -p ~/.ssh
       - run: echo $SSH_KNOWN_HOSTS | base64 -d >> ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
-      - run: rsync --delete -avP --rsync-path="sudo -u www-data rsync" ./_site/ circleci@developers.italia.it:/data/www/docs.developers.italia.it/web/
-
+      - run: rsync --delete -avP --exclude "Makefile" --rsync-path="sudo -u www-data rsync" ./_site/ circleci@developers.italia.it:/data/www/docs.developers.italia.it/web/
+      
 workflows:
   version: 2
   build-test-and-approval-deploy:
