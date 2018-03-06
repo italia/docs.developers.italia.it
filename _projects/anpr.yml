@@ -1,0 +1,10 @@
+---
+name: ANPR
+documents:
+  -
+    title: Documentazione tecnica
+    link: https://anpr.readthedocs.io/en/latest/
+    text: |
+      L’Anagrafe Nazionale della Popolazione Residente (ANPR) è la banca dati
+      nazionale nella quale confluiranno progressivamente le anagrafi comunali.
+---

@@ -1,0 +1,49 @@
+<!--[if IE 8]>
+ <script src="{{ '/assets/toolkit/vendor/respond.min.js' | relative_url }}"></script>
+ <script src="{{ '/assets/toolkit/vendor/rem.min.js' | relative_url }}"></script>
+ <script src="{{ '/assets/toolkit/vendor/selectivizr.js' | relative_url }}"></script>
+ <script src="{{ '/assets/toolkit/vendor/slice.js' | relative_url }}"></script>
+ <![endif]-->
+
+ <!--[if lte IE 9]>
+ <script src="{{ '/assets/toolkit/vendor/polyfill.min.js' | relative_url }}"></script>
+ <![endif]-->
+
+<script src="{{ '/assets/toolkit/IWT.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/scripts/main.js' | relative_url }}"></script>
+<script src="{{ '/assets/scripts/clamp.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/scripts/jquery.textfill.min.js' | relative_url }}"></script>
+
+
+<script>
+  $(document).on('keydown', function(e) {
+    if (e.keyCode === 9) {
+      $('body').removeClass('hide-focus');
+    } else if (e.keyCode == 191) { // slash
+      $('#cerca').focus();
+      e.preventDefault();
+    }
+  })
+
+  $(document).on('click', function(e) {
+    $('body').addClass('hide-focus');
+  })
+  
+  $(document).ready(function() {
+    $('.Card-text').each(function() {
+        $clamp(this, { clamp: 3 });
+    });
+    $('.Card-title').each(function() {
+      $(this).hide();
+      var height = $(this).closest('.Card-content').height() - 64 - 50 - 20;
+      var width = $(this).closest('.Card-content').width() - 64;
+      $(this).show();
+      $(this).textfill({
+          explicitWidth: width,
+          explicitHeight: height,
+          innerTag: 'a',
+          maxFontPixels: 23
+      });
+    });
+  });
+</script>

@@ -1,0 +1,25 @@
+{% include setlang.html %}
+{% include head.html %}
+
+{% include skiplinks.html %}
+{% include cookiebar.html %}
+
+<div class="u-background-95">
+  <div class="u-layout-wide u-layoutCenter u-background-grey-15">
+    {% include header.html %}
+    {% include network.html network_items=site.data.network_links %}
+    <div id="main" class="u-background-50 u-padding-r-bottom u-padding-r-top u-textLeft">
+      <hr class="Separator-room">
+      <hr class="Separator-room">
+      <hr class="Separator Separator--up u-background-grey-15">
+    </div>
+    {{ content }}
+  </div>
+</div>
+
+{% include scrolltop.html %}
+{% include footer.html %}
+{% include scripts.html %}
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+<div class="u-background-95">
+  <div class="u-layout-wide u-layoutCenter u-layout-r-withGutter u-hiddenPrint">
+    <footer class="Footer">
+      <div class="Grid Grid--withGutter u-padding-top-xl">
+        <div class="Grid-cell u-md-size1of3 u-lg-size5of12 u-padding-r-bottom">
+          <a href="{{ site.owner_link }}" class="u-linkClean">
+            <img class="Footer-logo u-xs-padding-right-none" src="{{ site.owner_logo }}" alt="" style="height: 4em; max-width: 100%">
+          </a>
+        </div>
+
+        <div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-padding-r-bottom td-footer">
+          <p class="u-padding-bottom-l" style="opacity: 0.5">{{ t.in_collaboration_with }}</p>
+          <div class="Grid">
+            <div class="u-inlineBlock">
+              <a href="{{ site.partner_link }}" class="u-linkClean">
+                <img class="u-padding-top-xxs u-padding-right-xs" src="{{ site.gov_logo }}" alt="" style="height: 4em; max-width: 100%">
+                <img class="u-padding-top-xxs u-padding-right-xxs" src="{{ site.partner_logo }}" alt="" style="height: 4em; max-width: 100%">
+              </a>
+            </div>
+            <div class="Grid-cell u-size1of12 u-padding-left-none team-bar"></div>
+            <p class="Grid-cell u-size5of12 Footer-siteName u-padding-left-xs u-text-r-xs" style="max-width: 10em">
+              <a href="{{ $site['partner_link'] }}" class="u-color-white u-linkClean">
+                {{ site.partner_full | upcase }}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Footer-links u-cf u-color-80">
+        <ul class="u-floatLeft">
+          {% for link in site.data.footer_links[active_lang] %}
+            {% assign link_name = link[1].title %}
+            <li><a href="{{ link[1].url }}">{{ t[link_name] | default: link_name | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="Footer-notes u-floatRight">
+          <li class="u-color-grey-40 u-textWeight-300">{{ t.footer_note }}</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>

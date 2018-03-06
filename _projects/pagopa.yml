@@ -1,0 +1,53 @@
+---
+name: PagoPA
+documents:
+  -
+    title: Overview
+    link: https://pagopa-docs-overview2.readthedocs.io/it/latest/index.html
+    text: |
+      Il presente documento denominato *Overview PagoPA* rappresenta l'Allegato
+      B alle «Linee guida per l’effettuazione dei pagamenti a favore delle
+      pubbliche amministrazioni e dei gestori di pubblici servizi» (di seguito,
+      Linee guida) e deve essere utilizzato in combinazione con il documento
+      «Specifiche attuative dei codici identificativi di versamento,
+      riversamento e rendicontazione» (Allegato A), nonché con le stesse Linee
+      guida; documenti ai quali si rimanda per tutte le voci e gli argomenti
+      non specificatamente qui indicati.
+      
+  -
+    title: FAQ
+    link: https://pagopa-doc-faq.readthedocs.io/it/latest/
+    text: |
+      Il Sistema PagoPA è stato realizzato dall’Agenzia per l’Italia Digitale (AgID)
+      in attuazione dell’art. 5 del CAD.
+  -
+    title: Architettura
+    link: https://pagopa-doc-architettura.readthedocs.io/it/latest/
+    text: |
+      Il Sistema PagoPA è stato realizzato dall’Agenzia per l’Italia Digitale (AgID)
+      in attuazione dell’art. 5 del CAD.
+  -
+    title: Formato messaggi XML
+    link: http://pagopa-docs-formatoxml2.readthedocs.io/it/latest/
+    text: |
+      Il Sistema pagoPA è stato realizzato dall’Agenzia per l’Italia Digitale (AgID)
+      in attuazione dell’art. 5 del CAD.
+  -
+    title: Specifiche Attuative Pagamenti
+    link: http://pagopa-docs-specattuative.readthedocs.io/it/latest/
+    text: |
+      Al fine di dare pratica attuazione all’articolo 5, comma 4 del CAD l’Agenzia per
+      l’Italia digitale, sentita la Banca d’Italia, ha pertanto reso disponibile il
+      documento (di seguito Linee guida) che, nell’illustrare le modalità da adottare
+      per l’effettuazione di detti pagamenti, rimanda a specifici documenti tecnici.
+
+      Le presenti rappresentano l’Allegato A alle citate Linee guida e devono essere 
+      utilizzate in combinazione con quest’ultime.
+
+  -
+    title: Specifiche Implementazione Web Services
+    link: https://pagopa-docs-specws.readthedocs.io/it/latest/
+    text: |
+      Il Sistema pagoPA è stato realizzato dall’Agenzia per l’Italia Digitale (AgID)
+      in attuazione dell’art. 5 del CAD.
+---

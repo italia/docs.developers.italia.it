@@ -1,0 +1,15 @@
+<div class="Header-slim">
+  <ul class="Header-links u-cf">
+    {% for link in site.data.network_links[active_lang] %}
+      {% assign link_name = link[1].title %}
+      <li class="{{ link[1].class }}">
+        <a class="u-color-white u-textWeight-300" href="{{ link[1].url }}">
+          {{ t[link_name] | default: link_name }}
+        </a>
+      </li>
+    {% endfor %}
+    {% comment %}
+    TODO : Language switch if multilanguage
+    {% endcomment %}
+  </ul>
+</div>
