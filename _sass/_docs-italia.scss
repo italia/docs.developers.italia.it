@@ -12,9 +12,14 @@
   min-height: 4.8rem;
 }
 
-.Header-titleLink a {
-  font-size: 2.4rem !important;
-  font-weight: 600!important;
+.Header-titleLink {
+  a {
+    font-weight: 600!important;
+  }
+  
+  small {
+    display: inline!important;
+  }
 }
 
 .Header-owner > a {
@@ -30,9 +35,9 @@
    .Header-title {
      width: 80% !important;
    }
-
-   .Header-link {
-     margin: 0;
+   
+   .Header-titleLink small {     
+     font-size: 1rem !important;
    }
 
    .Header-link a {
