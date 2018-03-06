@@ -1,0 +1,59 @@
+it:
+  code: ita
+  name: italiano
+  t:
+    active_lang: lingua attiva
+    cookiebar_accept: Accetto
+    cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
+    cookiebar_privacy_policy: Privacy policy
+    header_link_pt: Piano Triennale
+    header_link_developers: Developers
+    header_link_design: Designers
+    header_link_forum: Forum
+    header_link_docs: Docs
+    header_link_github: GitHub
+    footer_link_privacy_policy: privacy
+    footer_link_legal_notes: note legali
+    footer_link_credits: crediti
+    in_collaboration_with: in collaborazione con
+    footer_note: 
+    lang_on_site: sito in italiano
+    navigation_network_menu_label: Menu di navigazione del network
+    navigation_menu_label: Menu di navigazione
+    navigation_menu_esc: esci dalla navigazione
+    scrolltop_label: torna all'inizio dei contenuti
+    site_subtitle: Documenti pubblici, digitali.
+    site_title: Docs Italia
+    skiplink_goto_content: vai ai contenuti
+    skiplink_goto_navigation: vai alla navigazione del sito
+    toggle_menu_label: accedi al menu
+    toggle_network_menu_label: accedi al menu del network
+
+en:
+  code: eng
+  name: english
+  t:
+    active_lang: active language
+    cookiebar_accept: I accept
+    cookiebar_msg: This site uses technical cookies, analytics and third-party cookies. By continuing to browse, you accept the use of cookies.
+    cookiebar_privacy_policy: Privacy Policy
+    header_link_pt: The Three-Year Plan
+    header_link_developers: Developers
+    header_link_design: Designers
+    header_link_forum: Forum
+    header_link_docs: Docs
+    header_link_github: GitHub
+    in_collaboration_with: In collaboration with
+    footer_note: Copyrigth note
+    lang_on_site: site in Italian
+    navigation_network_menu_label: Network navigation menu
+    navigation_menu_label: Navigation menu
+    navigation_menu_esc: exit navigation
+    scrolltop_label: go back to the beginning of the contents
+    site_subtitle: Public documents, digital.
+    site_title: /doc
+    site_title_mobile: /doc
+    skiplink_goto_content: go to the contents
+    skiplink_goto_navigation: go to the site navigation
+    toggle_menu_label: access the menu
+    toggle_network_menu_label: access the network menu

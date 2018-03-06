@@ -1,0 +1,193 @@
+/** Header
+  ================ */
+
+.Header {
+  position: relative;
+  z-index: 40;
+}
+
+.Header-title {
+  line-height: .1!important;
+  width: 50% !important;
+  min-height: 4.8rem;
+}
+
+.Header-titleLink a {
+  font-size: 2.4rem !important;
+  font-weight: 600!important;
+}
+
+.Header-owner > a {
+  font-weight: initial !important;
+}
+
+.Header-link a {
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 767px) {
+   .Header-title {
+     width: 80% !important;
+   }
+   
+   .Header-link {
+     margin: 0;
+   }
+   
+   .Header-link a {
+     font-size: 1.5rem !important;
+   }
+}
+
+/** Slim Header
+   ================ */
+
+.Header-owner {
+  border-bottom: 1px solid #127ae2;
+}
+
+.Header-institutional a {
+  @media screen and (min-width: 992px) {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+.Header-slim {
+  color: #127ae2 !important;
+}
+
+.Header-slim a {
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.Header-slim a:hover {
+  text-decoration: none !important;
+  border-bottom: .1rem solid currentColor;
+}
+
+.Header-slim li.current a {
+  border-bottom: .1rem solid currentColor;
+  font-weight: 400;
+}
+
+.Header-slim li {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  display: inline-block !important;
+}
+
+.Header-slim li.delimiter {
+  border-right: .1rem solid currentColor;
+}
+
+.Header-titleLink a:hover, .Header-titleLink small:hover {
+  text-decoration: none !important;
+}
+
+.Network .current a {
+    font-size: 1.5em;
+    border-left: 1rem solid #0066cc !important;
+}
+
+/* Footer
+  ========== */
+
+.td-footer {
+  @media screen and (min-width: 992px) {
+    margin-top: -4.2rem;
+  }
+
+  .team-bar {
+    border-right: 1px solid #fff;
+    height: 3.5em;
+    margin-top: 4px;
+    width: 10px !important;
+  }
+}
+
+
+.Footer-notes li {
+  @media screen and (min-width: 992px) {
+    margin-top: 0;
+    margin-left: 3.2rem!important;
+    margin-right: 0 !important;
+  }
+  margin-right: 0 !important;
+  display: inline-block!important;
+  max-width: 100%;
+  font-size: small;
+  margin-top: 1rem;
+}
+
+.Footer-links li {
+  @media screen and (min-width: 992px) {
+    margin-right: 3.2rem!important;
+  }
+  margin-right: 1.5rem!important;
+  margin-left: 1.5rem!important;
+}
+
+.Footer-links > ul, .Footer .Social > ul {
+  @media screen and (min-width: 992px) {
+    width: auto;
+  }
+  width: 100%;
+}
+
+.Footer-notes li a {
+  color: #5a6772 !important;
+  font-weight: 200 !important;
+  text-decoration: underline !important;
+  font-size: small !important;
+}
+
+.Footer-links, .Footer .Social {
+  @media screen and (min-width: 992px) {
+    text-align: left;
+  }
+  text-align: center !important;
+}
+
+/* Card
+  ======= */
+.Card {
+  @media screen and (min-width: 768px) {
+    min-height: 22em;
+  }
+}
+
+.Card-header {
+  border-left: .75rem solid currentColor;
+}
+
+.Card-content {
+  border-left: .75rem solid currentColor;
+}
+
+/* Utilities
+  ========== */
+
+.hide-focus :focus,
+.hide-focus :focus:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+:focus {
+  box-shadow: none !important;
+  outline: 3px solid #ff8c00 !important;
+}
+
+.u-pullUp-l {
+  margin-top: -16rem;
+}
+
+.u-pullUp-s {
+  margin-top: -12rem;
+}

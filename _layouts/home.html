@@ -1,0 +1,51 @@
+---
+layout: default
+---
+  
+<div class="u-padding-r-bottom u-textLeft u-posRelative u-zindex-40">
+  <section class="u-layout-r-withGutter">
+    <div class="u-pullUp-l">
+      <div class="Grid Grid--withGutter">
+        {% for project in site.projects %}
+        {% for document in project.documents %}
+          <div class="Grid-cell u-sm-size1of3 u-md-size1of4 u-lg-size1of4 u-margin-r-bottom u-layout-matchHeight">
+              {% include card.html name=project.name version=document.version title=document.title text=document.text link=document.link %}
+          </div>
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="u-background-50 u-padding-r-bottom u-pullUp-l u-textCenter">
+  <hr class="Separator-room u-background-grey-15">
+  <hr class="Separator Separator--down u-background-50">
+  <section class="u-layout-r-withGutter u-posRelative u-zindex-40">
+    {% comment %}
+    <h1 class="u-text-r-l u-textWeight-300 u-color-white u-margin-top-xxl u-lineHeight-l">Search for more</h1>
+    {% include searchbox_head.html %}
+    {% endcomment %}
+  </section>
+  <hr class="Separator-room">
+  <hr class="Separator Separator--up u-background-50">
+</div>
+
+<div class="u-flex u-flexJustifyCenter u-pullUp-s">
+  <img src="{{ '/assets/images/docbook.svg' | relative_url }}" class="u-margin-top-xxl u-posRelative u-zindex-40 u-size1of2 u-sm-size1of4 u-md-size1of5 u-lg-size1of5"/>
+</div>
+
+<div class="u-background-grey-15 u-padding-r-top">
+    <div class="u-layoutCenter u-layout-r-withGutter u-layout-small u-posRelative u-zindex-30">
+        <h1 class="u-text-r-l u-textWeight-300 u-color-50 u-margin-top-xxl u-lineHeight-l u-margin-bottom-l u-textCenter">Cos'è Docs Italia?</h1>
+        <div class="Prose">
+          {{ content }}
+        <p>
+          <a href="{{ '/che-cos-e-docs-italia' | relative_url }}" class="u-textClean u-text-xxs">Per approfondire
+            <span class="Icon Icon-arrow-right u-margin-left-xs u-alignMiddle"></span>
+          </a>
+        </p>
+        </div>
+      </div>
+    <hr class="Separator-room">
+</div>

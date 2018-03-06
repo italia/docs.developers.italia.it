@@ -1,0 +1,40 @@
+---
+name: Piano triennale ICT
+documents:
+  -
+    title: Piano triennale
+    link: https://pianotriennale-ict.readthedocs.io/it/latest/
+    text: |
+      Il Piano triennale è costruito sulla base di un Modello strategico di
+      evoluzione del sistema informativo della Pubblica amministrazione e
+      indirizza il piano delle gare, il piano dei finanziamenti e i piani
+      triennali delle singole PA.
+  -
+    title: Codice dell'amministrazione digitale
+    link: https://cad.readthedocs.io/it/v2017-12-13/
+    version: v2017-12-13
+    text: |
+      Lo Stato, le Regioni e le autonomie locali assicurano la disponibilità, la
+      gestione, l’accesso, la trasmissione, la conservazione e la fruibilità
+      dell’informazione in modalità digitale e si organizzano ed agiscono a tale
+      fine utilizzando con le modalità più appropriate e nel modo più adeguato
+      al soddisfacimento degli interessi degli utenti le tecnologie
+      dell’informazione e della comunicazione.
+  -
+    title: Censimento ICT
+    link: https://censimentoict.italia.it/it/latest/
+    text: |
+      Il Censimento del Patrimonio ICT della PA si propone, con cadenza annuale, di
+      rilevare i dati necessari per delineare il quadro informativo/statistico sulle
+      principali installazioni informatiche a livello nazionale, regionale e locale,
+      determinando per ogni singola amministrazione l’insieme delle principali
+      componenti hardware e software in uso.
+  -
+    title: Cloud PA
+    link: https://cloud-pa.readthedocs.io/it/latest/
+    text: |
+      Le Circolari e i relativi allegati definiscono, in attuazione a quanto previsto
+      nel "Piano Triennale per l’informatica nella Pubblica amministrazione 2017-
+      2019", approvato con DPCM del 31 maggio 2017, i requisiti di qualificazione dei
+      servizi SaaS e dei Cloud Service Provider.
+---

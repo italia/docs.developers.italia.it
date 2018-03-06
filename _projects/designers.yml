@@ -1,0 +1,14 @@
+---
+name: Designers Italia
+documents:
+  -
+    title: Linee guida di design per i servizi web della Pubblica Amministrazione
+    link: http://design-italia.readthedocs.io/it/stable/
+    version: v2017.1
+    text: |
+      Le Linee guida per il design dei servizi digitali della Pubblica
+      Amministrazione sono uno strumento di lavoro per la Pubblica
+      Amministrazione e servono ad orientare la progettazione di ambienti
+      digitali fornendo indicazioni relative al service design, alla user
+      research, al content design e alla user interface. 
+---

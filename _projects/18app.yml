@@ -1,0 +1,11 @@
+---
+name: 18app
+documents:
+  -
+    title: Guida per gli esercenti
+    link: https://guida-18app.readthedocs.io/it/latest/
+    text: |
+      Questo documento raccoglie le domande più frequenti e le procedure
+      principali relative al servizio 18app. La documentazione originale può
+      essere trovata all’indirizzo http://18app.italia.it.
+---
