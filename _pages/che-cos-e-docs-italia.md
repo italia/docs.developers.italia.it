@@ -81,15 +81,15 @@ In particolare:
 * se, come cittadino, vuoi suggerire che un documento pubblico venga pubblicato
   in Docs Italia.
 
-Per discutere del progetto puoi usare il forum:
+Per discutere del progetto puoi usare il Forum:
 
 * [Tutte le novità su Docs Italia](https://forum.italia.it/t/docs-italia-tutte-le-novita/2610)
-* [Style guide documentazione tecnica](https://forum.italia.it/t/nuova-style-guide-per-documenti-tecnici-e-amministrativi/2608)
+* [Style guide per la documentazione tecnica](https://forum.italia.it/t/nuova-style-guide-per-documenti-tecnici-e-amministrativi/2608)
 
 ## Evoluzione del progetto
 
 Siamo al lavoro per creare nuove funzionalità e sviluppare la piattaforma: dal
 motore di ricerca alla navigazione, dalle modalità di conversione di un
 documento allo stile della documentazione, sono tante le novità in arrivo
-nelle prossime settimane. Per saperne di più segui il la [nostra board 
+nelle prossime settimane. Per saperne di più, segui la [nostra board su
 Trello](https://trello.com/b/jQUgRzRe/docs-italiasviluppo).
