@@ -19,4 +19,34 @@ documents:
       developed in the context of the activities planned by the Italian Three-Year
       Plan for ICT in Public Administration 2017 - 2019, approved by the Italian
       Government in the 2017.
+  -
+    title: Linee Guida Nazionali per la Valorizzazione del Patrimonio Informativo Pubblico
+    link: https://lg-patrimonio-pubblico.readthedocs.io/it/latest/
+    text: |
+      Questo documento rappresenta le linee guida per la valorizzazione del
+      patrimonio informativo pubblico per l’anno 2017 pubblicate dall’Agenzia
+      per l’Italia Digitale.
+  -
+    title: Linee Guida per i cataloghi dati
+    link: https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/
+    text: |
+      Questo progetto rappresenta le linee guida per l’alimentazione e gestione
+      di cataloghi dati secondo il profilo nazionale di metadatazione
+      DCAT-AP_IT, così come raccomandato nelle linee guida per la valorizzazione
+      del patrimonio informativo pubblico (anno 2016).
+  -
+    title: Schede informative basi di dati di interesse nazionale
+    link: https://pianotri-schede-bdin.readthedocs.io/en/latest/
+    text: |
+      Questo documento rappresenta il risultato dell’azione “Pubblicazione
+      elenco basi di dati di interesse nazionale” definita nell’ambito delle
+      Basi di dati di interesse nazionale del Piano Triennale per l’Informatica
+      nella PA (2017-2019).
+  -
+    title: Elenco Basi di Dati Chiave
+    link: https://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/
+    text: |
+      Questo documento rappresenta il risultato dell’azione “Individuazione
+      delle basi di dati chiave” definita nell’ambito degli Open Data del Piano
+      Triennale per l’Informatica nella PA (2017-2019).
 ---
