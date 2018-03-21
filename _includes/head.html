@@ -1,3 +1,7 @@
+{% assign buildTime =  site.time | date: '%Y%m%d%H%M' %}
+{% assign toolkitCSSURL = '/assets/toolkit/build.css?' | append: buildTime  %}
+{% assign mainCSSURL = '/assets/main.css?' | append: buildTime  %}
+
 <!DOCTYPE html>
 <!--[if IE 8]><html lang="{{ active_lang }}" class="no-js ie89 ie8"><![endif]-->
 <!--[if IE 9]><html lang="{{ active_lang }}" class="no-js ie89 ie9"><![endif]-->
@@ -35,8 +39,8 @@
   <!-- include html5shim per Explorer 8 -->
   <script src="{{ '/assets/toolkit/vendor/modernizr.js' | relative_url }}"></script>
 
-  <link media="all" rel="stylesheet" href="{{ '/assets/toolkit/build.css' | relative_url }}">
-  <link media="all" rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link media="all" rel="stylesheet" href="{{ toolkitCSSURL | relative_url }}">
+  <link media="all" rel="stylesheet" href="{{ mainCSSURL | relative_url }}">
 
   <script src="{{ '/assets/toolkit/vendor/jquery.min.js' | relative_url }}"></script>
 
