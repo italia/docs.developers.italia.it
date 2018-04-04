@@ -21,7 +21,7 @@ twitter:
 
 email: teamdigitale@governo.it
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://developers.italia.it"
+url: "https://docs.italia.it"
 twitter_username: developersITA
 github_username:  italia
 
@@ -42,13 +42,13 @@ owner_short: AgID
 owner_full: AgID
 owner_link: http://www.agid.gov.it
 logo: /assets/icons/logo-it.png
-owner_logo: https://www.spid.gov.it/assets/img/agid-logo-bb.svg
+owner_logo: /assets/images/agid-logo-bb.svg
 partner_short: Team Digitale
 partner_full: Team per la Trasformazione Digitale
 partner_link: https://teamdigitale.governo.it
 privacy_link: https://developers.italia.it/it/privacy-policy
-gov_logo: https://teamdigitale.governo.it/images/loghi/governo.svg
-partner_logo: https://teamdigitale.governo.it/images/loghi/dt-logo.svg
+gov_logo: assets/images/governo.svg
+partner_logo: assets/images/dt-logo.svg
 pill: beta
 lang: it
 piwik: 9966c07e-e545-4281-8558-a5ad707c5c52
