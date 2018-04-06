@@ -103,61 +103,94 @@
 /* Footer
   ========== */
 
-.td-footer {
-  @media screen and (min-width: 992px) {
-    margin-top: -4.2rem;
+  .Footer {
+    .Footer-logo {
+      height: 2.2em;
+      padding: 0 !important;
+    }
+
+    .Footer-logo-container--owner {
+      @media screen and (min-width: 992px) {
+        padding-top: 2.3em;
+      }
+    }
+
+    .Footer-logo-separator {
+      border-left: 0.1em solid #fff;
+      margin: 0 0.3em;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+
+    .Footer-logo-separator--partner {
+      border-left: 0.05em solid #fff;
+      margin: 0 0.3em;
+      font-size: 1.4em;
+      vertical-align: middle;
+    }
+
+    .Owner-name {
+      display: inline-block;
+      width: 7em;
+      vertical-align: middle;
+    }
+
+    .Partner-name {
+      display: inline-block;
+      width: 10em;
+      font-size: 0.7em;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+
+    .Footer-notes li {
+      @media screen and (min-width: 992px) {
+        margin-top: 0;
+        margin-left: 3.2rem !important;
+        margin-right: 0 !important;
+      }
+
+      margin-right: 0 !important;
+      display: inline-block !important;
+      max-width: 100%;
+      font-size: small;
+      margin-top: 1rem;
+    }
+
+    .Footer-links li {
+      @media screen and (min-width: 992px) {
+        margin-right: 3.2rem !important;
+      }
+
+      margin-right: 1.5rem !important;
+      margin-left: 1.5rem !important;
+    }
+
+    .Social > ul,
+    .Footer-links > ul {
+      @media screen and (min-width: 992px) {
+        width: auto;
+      }
+
+      width: 100%;
+    }
+
+    .Footer-notes li a {
+      color: #5a6772 !important;
+      font-weight: 200 !important;
+      text-decoration: underline !important;
+      font-size: small !important;
+    }
+
+    .Social,
+    .Footer-links {
+      @media screen and (min-width: 992px) {
+        text-align: left;
+      }
+
+      text-align: center !important;
+    }
   }
-
-  .team-bar {
-    border-right: 1px solid #fff;
-    height: 3.5em;
-    margin-top: 4px;
-    width: 10px !important;
-  }
-}
-
-
-.Footer-notes li {
-  @media screen and (min-width: 992px) {
-    margin-top: 0;
-    margin-left: 3.2rem!important;
-    margin-right: 0 !important;
-  }
-  margin-right: 0 !important;
-  display: inline-block!important;
-  max-width: 100%;
-  font-size: small;
-  margin-top: 1rem;
-}
-
-.Footer-links li {
-  @media screen and (min-width: 992px) {
-    margin-right: 3.2rem!important;
-  }
-  margin-right: 1.5rem!important;
-  margin-left: 1.5rem!important;
-}
-
-.Footer-links > ul, .Footer .Social > ul {
-  @media screen and (min-width: 992px) {
-    width: auto;
-  }
-  width: 100%;
-}
-
-.Footer-notes li a {
-  color: #5a6772 !important;
-  font-weight: 200 !important;
-  text-decoration: underline !important;
-  font-size: small !important;
-}
-
-.Footer-links, .Footer .Social {
-  @media screen and (min-width: 992px) {
-    text-align: left;
-  }
-  text-align: center !important;
-}
 
 /* Card
   ======= */
