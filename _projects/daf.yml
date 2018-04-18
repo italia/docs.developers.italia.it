@@ -49,4 +49,12 @@ documents:
       Questo documento rappresenta il risultato dell’azione “Individuazione
       delle basi di dati chiave” definita nell’ambito degli Open Data del Piano
       Triennale per l’Informatica nella PA (2017-2019).
+  -
+    title: DAF Dataportal: manuale per l'utente
+    link: http://daf-dataportal.readthedocs.io/it/latest/
+    text: |
+      Questo manuale per l'utente illustra le principali operazioni che è
+      possibile svolgere all'interno dell'area pubblica del Dataportal,
+      accessibile a tutti gli utenti del Web, e dell'area privata, a uso
+      esclusivo degli utenti registrati.
 ---
