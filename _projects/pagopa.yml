@@ -14,4 +14,11 @@ documents:
     link: https://pagopa-docs-faq.readthedocs.io/it/latest/
     text: |
       Le domande più comuni di enti pubblici e cittadini sul Sistema PagoPA.
+  -
+    title: Specifiche attuative dei codici identificativi di versamento, riversamento e rendicondazione
+    link: https://pagopa-codici.readthedocs.io/it/latest/
+    text: |
+      Allegato A alle «Linee guida per l’effettuazione dei pagamenti elettronici
+      a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi
+      ».
 ---
