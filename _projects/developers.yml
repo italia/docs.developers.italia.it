@@ -1,0 +1,16 @@
+---
+name: Developers Italia
+documents:
+  -
+    title: Linee guida su acquisizione e riuso di software per le pubbliche amministrazioni
+    link: http://lg-acquisizione-e-riuso-software-per-la-pa.readthedocs.io/it/latest/
+    text: |
+      Le presenti linee guida individuano le modalità e i criteri con i quali
+      un’amministrazione deve effettuare la valutazione comparativa descritta
+      nell'articolo 68 del Codice dell'Amministrazione Digitale (CAD) per
+      decidere la modalità di acquisizione di un software. Inoltre, individua la
+      piattaforma per la pubblicazione di codice sorgente sotto licenza aperta
+      e documentazione del software messo a riuso dalle amministrazioni,
+      indicando anche le modalità tecniche di utilizzo, secondo quanto
+      stabilito dall'articolo 69 del CAD. 
+---
