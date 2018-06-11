@@ -2,7 +2,7 @@
 name: PagoPA
 documents:
   -
-    title: Specifiche Attuative del Nodo dei Pagamenti-SPC
+    title: Specifiche attuative del nodo dei pagamenti SPC
     link: https://pagopa-specifichepagamenti.readthedocs.io/it/latest/
     text: |
       Il Sistema PagoPA è stato realizzato dall’Agenzia per l’Italia Digitale

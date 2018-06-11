@@ -12,7 +12,7 @@ documents:
       relative al piano di sviluppo del DAF nella sua fase di sperimentazione (entro
       dicembre 2017).
   -
-    title: Developer Documentation
+    title: Developer documentation
     link: https://daf-docs.readthedocs.io/en/latest/
     text: |
       The Data & Analytics Framework (DAF, in short) is an open source project
@@ -20,14 +20,14 @@ documents:
       Plan for ICT in Public Administration 2017 - 2019, approved by the Italian
       Government in the 2017.
   -
-    title: Linee Guida Nazionali per la Valorizzazione del Patrimonio Informativo Pubblico
+    title: Linee guida nazionali per la valorizzazione del patrimonio informativo pubblico
     link: https://lg-patrimonio-pubblico.readthedocs.io/it/latest/
     text: |
       Questo documento rappresenta le linee guida per la valorizzazione del
       patrimonio informativo pubblico per l’anno 2017 pubblicate dall’Agenzia
       per l’Italia Digitale.
   -
-    title: Linee Guida per i cataloghi dati
+    title: Linee guida per i cataloghi dati
     link: https://linee-guida-cataloghi-dati-profilo-dcat-ap-it.readthedocs.io/it/latest/
     text: |
       Questo progetto rappresenta le linee guida per l’alimentazione e gestione
@@ -43,7 +43,7 @@ documents:
       Basi di dati di interesse nazionale del Piano Triennale per l’Informatica
       nella PA (2017-2019).
   -
-    title: Elenco Basi di Dati Chiave
+    title: Elenco basi di dati chiave
     link: https://elenco-basi-di-dati-chiave.readthedocs.io/it/latest/
     text: |
       Questo documento rappresenta il risultato dell’azione “Individuazione
