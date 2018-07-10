@@ -26,5 +26,10 @@ documents:
     link: http://lg-pagopa.readthedocs.io/it/latest/
     text: |
       Le presenti Linee guida sono emanate - ai sensi dell’articolo 71 del Decreto legislativo 7 marzo 2005, 
-      n. 82 e successive modificazioni,
+      n. 82 e successive modificazioni.
+  -
+    title: Guida tecnica avviso analogico
+    link: http://pagopa-avvisoanalogico.readthedocs.io/it/latest/
+    text: |
+      Guida tecnica all' avviso di pagamento analogico.
 ---
