@@ -20,10 +20,7 @@ jobs:
       - run: bundle exec jekyll build
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx --disable-external
       - run: mkdir -p ~/.ssh
-      - run: |
-          echo -e '
-          91.206.129.249 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAFZTRBJ1MTTqL5pNBeJdVJMT7NXUUAr/S3OCBNyHW/koWDKBxXjYuESCe+CHgM2poldvXtId92qV1OQwfAIqiE=
-          ' >> ~/.ssh/known_hosts
+      - run: echo $SSH_KNOWN_HOSTS | base64 -d > ~/.ssh/known_hosts
       - run: which rsync || sudo apt-get install rsync
       - run: rsync --delete -avP --exclude "Makefile" --rsync-path="sudo -u www-data rsync" ./_site/ circleci@developers.italia.it:/data/www/docs.developers.italia.it/web/
       
