@@ -2,7 +2,7 @@
 name: Carta di identità elettronica
 documents:
   -
-    title: CIE 3.0 - Manuale d’uso del middleware CIE
+    title: "CIE 3.0: Manuale d’uso del middleware CIE"
     link: https://cie30-middleware.readthedocs.io/it/latest/
     text: |
       Il Middleware CIE è il software necessario per utilizzare
